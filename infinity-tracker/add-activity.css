@@ -1,0 +1,106 @@
+/* * {
+    border: 1px solid black
+  } */
+
+#navbar {
+    height: 64px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.it-navbar {
+    display: flex;
+    background-color: rgb(247, 196, 130);
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.nav-img {
+    display: flex;
+    height: 64px;
+    align-items: center;
+    padding-left: 16px;
+}
+.nav-img p {
+    padding-left: 10px;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    width:auto;
+}
+.nav-list a{
+    height: 64px;
+    padding-right: 16px;
+    align-items: center;
+    display: flex;
+}
+.body {
+    display: flex;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 36px;
+    background-color: aliceblue;
+}
+.ch-activity {
+    display: flex;
+    justify-content: space-between;
+}
+#activity {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+   
+}
+.body-activities {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 10%;
+    border-radius: 15px;
+    background-color: rgb(250, 190, 190);
+}
+.body-activities h2{
+    font-size: 36px;
+    margin: 16px 0px 16px 0px;
+}
+.body-info {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    text-decoration: none;
+    justify-items: flex-start;
+}
+.body-info p{
+    padding-left: 10px;
+    font-size: 24px;
+    color: rgb(24, 77, 99);
+}
+.body-form {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 16px;
+    font-size: 26px;
+}
+.form-label {
+    display: flex;
+    margin-top: 36px;
+    justify-content: space-between;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin: 36px;
+    width: 200px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(170, 209, 245);
+    font-size: 24px;
+}
+.form-button {
+    display: flex;
+    justify-content: center;
+    padding: 0px 50px;
+    text-decoration: none;
+}
