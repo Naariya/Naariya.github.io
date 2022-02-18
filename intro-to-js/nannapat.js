@@ -14,7 +14,7 @@ function helloWorld() {
 function calAge() {
     const year = prompt("Tell me your year of birth? (please put it in number.)");
     const age = (2022 - year)
-    alert("Congratulations, You have been the citizen of the world for" + " " + age + " years.")
+    alert(`Congratulations, You have been the citizen of the world for ${age} years.`)
 }
 
 function loadProfile() {
