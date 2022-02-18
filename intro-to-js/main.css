@@ -16,3 +16,10 @@
     background-color: rgb(191, 208, 240);
     border-radius: 12px;
 }
+
+.profile {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 24px;
+}
