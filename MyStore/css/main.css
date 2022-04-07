@@ -4,7 +4,6 @@ body {
 }
 .container {
   width: 100%;
-  max-width: 1200px;
   margin: 0px auto;
 }
 .section-title {
@@ -34,7 +33,8 @@ body {
   display: flex;
 }
 .nav-item {
-  margin-left: 24px;;
+  margin-left: 24px;
+  list-style: none;
 }
 
 /*---- Hero Section ----*/
